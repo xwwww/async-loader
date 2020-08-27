@@ -1,0 +1,26 @@
+{
+  "name": "async-loader",
+  "version": "1.0.0",
+  "description": "给 async/await 加 try...catch...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xwwww/async-loader.git"
+  },
+  "author": "xwwww",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xwwww/async-loader/issues"
+  },
+  "homepage": "https://github.com/xwwww/async-loader#readme",
+  "dependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/parser": "^7.11.4",
+    "@babel/traverse": "^7.11.0",
+    "@babel/types": "^7.11.0",
+    "loader-utils": "^2.0.0"
+  }
+}
